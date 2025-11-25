@@ -21,3 +21,22 @@ LCD_BL = 13
 LCD_RST = 25
 TP_CS = 16
 TP_IRQ = 17
+
+
+
+Traceback (most recent call last):
+  File "/home/carl/Pi4ili9488/ledbutton2.py", line 9, in <module>
+    import ili9488
+  File "/home/carl/Pi4ili9488/ili9488.py", line 20, in <module>
+    import ustruct  # type: ignore
+ModuleNotFoundError: No module named 'ustruct'
+
+        Traceback (most recent call last):
+
+  File "/home/carl/Pi4ili9488/picotest.py", line 5, in <module>
+    from ili9488 import Display, color565, bswap16
+  File "/home/carl/Pi4ili9488/ili9488.py", line 20, in <module>
+    import ustruct  # type: ignore
+ModuleNotFoundError: No module named 'ustruct'
+
+> > > 
